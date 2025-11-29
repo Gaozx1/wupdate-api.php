@@ -1,0 +1,627 @@
+# Chinese (Simplified) translations for WordPress API Extended plugin
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress API Extended 1.1.0a-1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# 插件信息
+#: wp-api-extended.php:15
+msgid "Extend WordPress REST API functionality, provide article lists and article details interfaces, support API key authentication and password verification, and manage content via API"
+msgstr "扩展WordPress REST API功能，提供文章列表和文章详情接口，支持API密钥认证和密码验证，并通过API管理内容"
+
+# 版本提示
+#: wp-api-extended.php:121
+msgid "You are using <strong>WordPress API Extended %s</strong> alpha version. This version may contain incomplete features and is not recommended for production use."
+msgstr "您正在使用 <strong>WordPress API Extended %s</strong> Alpha版本。此版本可能包含未完善的功能，不建议在生产环境中使用。"
+
+# 菜单和页面标题
+#: wp-api-extended.php:144
+msgid "WP API Extended Settings"
+msgstr "WP API扩展设置"
+
+#: wp-api-extended.php:145
+msgid "API Extended"
+msgstr "API扩展"
+
+#: wp-api-extended.php:352
+msgid "API Extended - Settings"
+msgstr "API扩展 - 设置"
+
+#: class-admin-panel.php:45
+msgid "API Extended - Dashboard"
+msgstr "API扩展 - 仪表板"
+
+#: class-admin-panel.php:149
+msgid "API Extended - Content Management"
+msgstr "API扩展 - 内容管理"
+
+#: class-admin-panel.php:232
+msgid "API Extended - Media Upload"
+msgstr "API扩展 - 媒体上传"
+
+# 权限和错误消息
+#: wp-api-extended.php:181
+msgid "Insufficient permissions"
+msgstr "权限不足"
+
+#: wp-api-extended.php:344
+msgid "You do not have permission to access this page"
+msgstr "您没有权限访问此页面"
+
+#: class-api-functions.php:143
+msgid "You do not have permission to edit this post"
+msgstr "您没有权限编辑此文章"
+
+#: class-api-functions.php:217
+msgid "You do not have permission to delete this post"
+msgstr "您没有权限删除此文章"
+
+#: class-api-functions.php:388
+msgid "You do not have permission to delete this media"
+msgstr "您没有权限删除此媒体"
+
+# API密钥管理
+#: wp-api-extended.php:358
+msgid "API Key Management"
+msgstr "API密钥管理"
+
+#: wp-api-extended.php:362
+msgid "Your API Key:"
+msgstr "您的API密钥："
+
+#: wp-api-extended.php:365
+msgid "Important: This key will only be displayed once and cannot be viewed again after closing the page!"
+msgstr "重要：此密钥只会显示一次，关闭页面后将无法再次查看！"
+
+#: wp-api-extended.php:368
+msgid "Revoke Current Key"
+msgstr "撤销当前密钥"
+
+#: wp-api-extended.php:372
+msgid "You already have an active API key."
+msgstr "您已有一个活跃的API密钥。"
+
+#: wp-api-extended.php:376
+msgid "You have not generated an API key yet."
+msgstr "您还没有生成API密钥。"
+
+#: wp-api-extended.php:377
+msgid "Generate New API Key"
+msgstr "生成新的API密钥"
+
+#: wp-api-extended.php:200
+msgid "API key generated successfully"
+msgstr "API密钥生成成功"
+
+#: wp-api-extended.php:202
+msgid "Failed to generate API key"
+msgstr "生成API密钥失败"
+
+#: wp-api-extended.php:218
+msgid "API key revoked successfully"
+msgstr "API密钥已撤销"
+
+#: wp-api-extended.php:220
+msgid "Failed to revoke API key"
+msgstr "撤销API密钥失败"
+
+# 密码验证
+#: wp-api-extended.php:383
+msgid "Password Verification Access"
+msgstr "密码验证访问"
+
+#: wp-api-extended.php:384
+msgid "Enter your WordPress password to temporarily access API features:"
+msgstr "输入您的WordPress密码来临时访问API功能："
+
+#: wp-api-extended.php:385
+msgid "Enter your WordPress password"
+msgstr "输入您的WordPress密码"
+
+#: wp-api-extended.php:386
+msgid "Verify Password"
+msgstr "验证密码"
+
+#: wp-api-extended.php:232
+msgid "Please enter password"
+msgstr "请输入密码"
+
+#: wp-api-extended.php:247
+msgid "Password verification successful"
+msgstr "密码验证成功"
+
+#: wp-api-extended.php:252
+msgid "Incorrect password"
+msgstr "密码错误"
+
+# API端点信息
+#: wp-api-extended.php:402
+msgid "API Endpoint Information"
+msgstr "API端点信息"
+
+#: wp-api-extended.php:403
+msgid "Available API endpoints:"
+msgstr "可用的API端点："
+
+#: wp-api-extended.php:404
+msgid "Content Endpoints"
+msgstr "内容端点"
+
+#: wp-api-extended.php:405
+msgid "Get Posts List:"
+msgstr "获取文章列表："
+
+#: wp-api-extended.php:406
+msgid "Get Post Details:"
+msgstr "获取文章详情："
+
+#: wp-api-extended.php:407
+msgid "Create New Post:"
+msgstr "创建新文章："
+
+#: wp-api-extended.php:408
+msgid "Update Post:"
+msgstr "更新文章："
+
+#: wp-api-extended.php:409
+msgid "Delete Post:"
+msgstr "删除文章："
+
+#: wp-api-extended.php:411
+msgid "Media Endpoints"
+msgstr "媒体端点"
+
+#: wp-api-extended.php:412
+msgid "Upload Media:"
+msgstr "上传媒体："
+
+#: wp-api-extended.php:413
+msgid "Get Media List:"
+msgstr "获取媒体列表："
+
+#: wp-api-extended.php:414
+msgid "Get Media Details:"
+msgstr "获取媒体详情："
+
+#: wp-api-extended.php:415
+msgid "Delete Media:"
+msgstr "删除媒体："
+
+#: wp-api-extended.php:417
+msgid "Utility Endpoints"
+msgstr "实用端点"
+
+#: wp-api-extended.php:418
+msgid "Search Posts:"
+msgstr "搜索文章："
+
+#: wp-api-extended.php:419
+msgid "Get System Information:"
+msgstr "获取系统信息："
+
+#: wp-api-extended.php:420
+msgid "Get Categories:"
+msgstr "获取分类："
+
+#: wp-api-extended.php:421
+msgid "Get Tags:"
+msgstr "获取标签："
+
+# 使用说明
+#: wp-api-extended.php:424
+msgid "Usage Instructions"
+msgstr "使用说明"
+
+#: wp-api-extended.php:425
+msgid "Add to request headers:"
+msgstr "在请求头中添加："
+
+#: wp-api-extended.php:426
+msgid "Your API Key"
+msgstr "您的API密钥"
+
+#: wp-api-extended.php:428
+msgid "Or use temporary token:"
+msgstr "或使用临时令牌："
+
+#: wp-api-extended.php:429
+msgid "Temporary Token"
+msgstr "临时令牌"
+
+#: wp-api-extended.php:432
+msgid "Test API"
+msgstr "测试API"
+
+#: wp-api-extended.php:433
+msgid "Test Get Posts List"
+msgstr "测试获取文章列表"
+
+# 仪表板统计
+#: class-admin-panel.php:56
+msgid "Total Posts"
+msgstr "总文章数"
+
+#: class-admin-panel.php:65
+msgid "Total Media"
+msgstr "总媒体数"
+
+#: class-admin-panel.php:74
+msgid "Total Users"
+msgstr "总用户数"
+
+#: class-admin-panel.php:83
+msgid "API Keys"
+msgstr "API密钥"
+
+#: class-admin-panel.php:95
+msgid "Quick Actions"
+msgstr "快速操作"
+
+#: class-admin-panel.php:97
+msgid "Manage Content"
+msgstr "管理内容"
+
+#: class-admin-panel.php:100
+msgid "Upload Media"
+msgstr "上传媒体"
+
+#: class-admin-panel.php:106
+msgid "Recent Posts"
+msgstr "最近文章"
+
+#: class-admin-panel.php:119
+msgid "No recent posts found."
+msgstr "未找到最近文章。"
+
+# API使用指南
+#: class-admin-panel.php:127
+msgid "API Usage Guide"
+msgstr "API使用指南"
+
+#: class-admin-panel.php:129
+msgid "Quick Start"
+msgstr "快速开始"
+
+#: class-admin-panel.php:132
+msgid "Generate an API key in the Settings page"
+msgstr "在设置页面生成API密钥"
+
+#: class-admin-panel.php:133
+msgid "Use the API key in your requests with X-API-Key header"
+msgstr "在请求中使用X-API-Key头部包含API密钥"
+
+#: class-admin-panel.php:134
+msgid "Start making requests to the available endpoints"
+msgstr "开始向可用端点发送请求"
+
+#: class-admin-panel.php:137
+msgid "Example Request"
+msgstr "示例请求"
+
+# 内容管理
+#: class-admin-panel.php:156
+msgid "Create New Post"
+msgstr "创建新文章"
+
+#: class-admin-panel.php:159
+msgid "Post Title"
+msgstr "文章标题"
+
+#: class-admin-panel.php:163
+msgid "Content"
+msgstr "内容"
+
+#: class-admin-panel.php:167
+msgid "Excerpt"
+msgstr "摘要"
+
+#: class-admin-panel.php:171
+msgid "Status"
+msgstr "状态"
+
+#: class-admin-panel.php:173
+msgid "Draft"
+msgstr "草稿"
+
+#: class-admin-panel.php:174
+msgid "Publish"
+msgstr "发布"
+
+#: class-admin-panel.php:175
+msgid "Pending Review"
+msgstr "待审核"
+
+#: class-admin-panel.php:178
+msgid "Featured Image"
+msgstr "特色图片"
+
+#: class-admin-panel.php:180
+msgid "Select Image"
+msgstr "选择图片"
+
+#: class-admin-panel.php:186
+msgid "Create Post"
+msgstr "创建文章"
+
+#: class-admin-panel.php:187
+msgid "Test Create"
+msgstr "测试创建"
+
+# 快速工具
+#: class-admin-panel.php:195
+msgid "Quick Tools"
+msgstr "快速工具"
+
+#: class-admin-panel.php:197
+msgid "Test Get Posts"
+msgstr "测试获取文章"
+
+#: class-admin-panel.php:198
+msgid "Test Get Categories"
+msgstr "测试获取分类"
+
+#: class-admin-panel.php:199
+msgid "Test Search"
+msgstr "测试搜索"
+
+#: class-admin-panel.php:203
+msgid "Test Results"
+msgstr "测试结果"
+
+# API示例
+#: class-admin-panel.php:213
+msgid "API Examples"
+msgstr "API示例"
+
+# 媒体上传
+#: class-admin-panel.php:239
+msgid "Upload Media"
+msgstr "上传媒体"
+
+#: class-admin-panel.php:242
+msgid "Select File"
+msgstr "选择文件"
+
+#: class-admin-panel.php:246
+msgid "Maximum upload size: %s"
+msgstr "最大上传大小：%s"
+
+#: class-admin-panel.php:250
+msgid "Title"
+msgstr "标题"
+
+#: class-admin-panel.php:251
+msgid "Optional media title"
+msgstr "可选的媒体标题"
+
+#: class-admin-panel.php:255
+msgid "Description"
+msgstr "描述"
+
+#: class-admin-panel.php:256
+msgid "Optional media description"
+msgstr "可选的媒体描述"
+
+#: class-admin-panel.php:262
+msgid "Test Upload"
+msgstr "测试上传"
+
+# 媒体库
+#: class-admin-panel.php:270
+msgid "Media Library"
+msgstr "媒体库"
+
+#: class-admin-panel.php:272
+msgid "Refresh Library"
+msgstr "刷新库"
+
+#: class-admin-panel.php:273
+msgid "Test Get Media"
+msgstr "测试获取媒体"
+
+#: class-admin-panel.php:281
+msgid "Loading media..."
+msgstr "加载媒体中..."
+
+# 媒体API示例
+#: class-admin-panel.php:288
+msgid "Media API Examples"
+msgstr "媒体API示例"
+
+# API功能错误消息
+#: class-api-functions.php:47
+msgid "Invalid post ID"
+msgstr "无效的文章ID"
+
+#: class-api-functions.php:54
+msgid "Post not found"
+msgstr "文章未找到"
+
+#: class-api-functions.php:71
+msgid "Post title is required"
+msgstr "文章标题是必需的"
+
+#: class-api-functions.php:78
+msgid "Post content is required"
+msgstr "文章内容是必需的"
+
+#: class-api-functions.php:103
+msgid "Failed to create post"
+msgstr "创建文章失败"
+
+#: class-api-functions.php:119
+msgid "Post created successfully"
+msgstr "文章创建成功"
+
+#: class-api-functions.php:176
+msgid "Failed to update post"
+msgstr "更新文章失败"
+
+#: class-api-functions.php:192
+msgid "Post updated successfully"
+msgstr "文章更新成功"
+
+#: class-api-functions.php:225
+msgid "Failed to delete post"
+msgstr "删除文章失败"
+
+#: class-api-functions.php:241
+msgid "Post deleted successfully"
+msgstr "文章删除成功"
+
+# 媒体相关错误消息
+#: class-api-functions.php:259
+msgid "No file uploaded"
+msgstr "没有文件被上传"
+
+#: class-api-functions.php:266
+msgid "File upload error"
+msgstr "文件上传错误"
+
+#: class-api-functions.php:274
+msgid "File type not allowed"
+msgstr "文件类型不允许"
+
+#: class-api-functions.php:282
+msgid "File is too large"
+msgstr "文件太大"
+
+#: class-api-functions.php:290
+msgid "Upload failed"
+msgstr "上传失败"
+
+#: class-api-functions.php:305
+msgid "Failed to create media attachment"
+msgstr "创建媒体附件失败"
+
+#: class-api-functions.php:321
+msgid "Media uploaded successfully"
+msgstr "媒体上传成功"
+
+#: class-api-functions.php:354
+msgid "Invalid media ID"
+msgstr "无效的媒体ID"
+
+#: class-api-functions.php:361
+msgid "Media not found"
+msgstr "媒体未找到"
+
+#: class-api-functions.php:396
+msgid "Failed to delete media"
+msgstr "删除媒体失败"
+
+#: class-api-functions.php:412
+msgid "Media deleted successfully"
+msgstr "媒体删除成功"
+
+# 搜索相关
+#: class-api-functions.php:429
+msgid "Please enter search keyword"
+msgstr "请输入搜索关键词"
+
+# 认证相关
+#: class-api-auth.php:25
+msgid "Missing API key"
+msgstr "缺少API密钥"
+
+#: class-api-auth.php:35
+msgid "Invalid API key"
+msgstr "无效的API密钥"
+
+# 其他功能
+#: wp-api-extended.php:273
+msgid "Unknown data type"
+msgstr "未知的数据类型"
+
+# JavaScript 翻译字符串
+msgid "Are you sure you want to generate a new API key? The old key will be invalidated immediately."
+msgstr "确定要生成新的API密钥吗？旧的密钥将立即失效。"
+
+msgid "Are you sure you want to revoke the current API key? It cannot be recovered after revocation."
+msgstr "确定要撤销当前API密钥吗？撤销后将无法恢复。"
+
+msgid "Please enter your password"
+msgstr "请输入您的密码"
+
+msgid "Please enter your API key or temporary token for testing:"
+msgstr "请输入您的API密钥或临时令牌进行测试："
+
+msgid "Generating..."
+msgstr "生成中..."
+
+msgid "Revoking..."
+msgstr "撤销中..."
+
+msgid "Verifying..."
+msgstr "验证中..."
+
+msgid "Requesting..."
+msgstr "请求中..."
+
+msgid "Loading..."
+msgstr "加载中..."
+
+msgid "Uploading..."
+msgstr "上传中..."
+
+msgid "Creating..."
+msgstr "创建中..."
+
+# 子菜单标题
+msgid "API Settings"
+msgstr "API设置"
+
+msgid "Content Management"
+msgstr "内容管理"
+
+msgid "Media Upload"
+msgstr "媒体上传"
+
+# 端点描述
+msgid "Get posts list"
+msgstr "获取文章列表"
+
+msgid "Get post details"
+msgstr "获取文章详情"
+
+msgid "Create new post"
+msgstr "创建新文章"
+
+msgid "Update post"
+msgstr "更新文章"
+
+msgid "Delete post"
+msgstr "删除文章"
+
+msgid "Upload media"
+msgstr "上传媒体"
+
+msgid "Get media list"
+msgstr "获取媒体列表"
+
+msgid "Get media details"
+msgstr "获取媒体详情"
+
+msgid "Delete media"
+msgstr "删除媒体"
+
+msgid "Search posts"
+msgstr "搜索文章"
+
+msgid "Get system information"
+msgstr "获取系统信息"
+
+msgid "Get categories"
+msgstr "获取分类"
+
+msgid "Get tags"
+msgstr "获取标签"
